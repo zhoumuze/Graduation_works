@@ -1,0 +1,104 @@
+body {
+    width: 100%;
+    background: url("/img/moshou/bg.jpg") no-repeat center top;
+}
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*头部样式*/
+header {
+    width: 1200px;
+    height: 70px;
+    margin: 45px auto;
+    position: relative;
+}
+header .nav {
+    width: 1200px;
+    height: 70px;
+    background-image: url("/img/moshou/bg_nav.jpg");
+    background-size: cover;
+    border: 1px solid #3f2a22;
+}
+header .nav a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #f8b700;
+    width: 160px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid #3f2a22;
+    border-bottom: none;
+    border-top: none;
+}
+header .nav a:nth-child(3) {
+    margin-right: 228px;
+}
+header .logo h1 {
+    display: none;
+}
+header .logo {
+    width: 235px;
+    height: 117px;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.menu {
+    width: 648px;
+    margin: 0 auto;
+    margin-top: 470px;
+}
+.menu span {
+    display: none;
+}
+.menu .detail {
+    width: 324px;
+    height: 95px;
+    float: left;
+background-image: url("/img/moshou/btns.png");
+
+}
+.menu .download {
+    width: 324px;
+    height: 95px;
+    float: left;
+    background-image: url("/img/moshou/btns.png");
+    background-position: -324px;
+}
+.ads {
+    width: 1213px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 650px;
+    margin-bottom: 115px;
+}
+.ads .item {
+    width: 290px;
+    height: 200px;
+    border: 1px solid #3f2a22;
+    float: left;
+    margin-right: 15px;
+}
+.ads .item:last-child {
+    margin-right: 0px;
+}
+.ads .item a h2 {
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #211510;
+    color: #f8b700;
+    border-bottom: 1px solid #3f2a22;
+}
+.ads .item a img {
+    width: 290px;
+    height: 149px;
+}
