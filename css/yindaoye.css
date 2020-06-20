@@ -1,0 +1,34 @@
+body{
+	background-image: url(../img/yindaoye/bg.jpeg);
+	padding: 15% 5% 5% 5%;
+}
+div{
+	text-align: center;
+	font-family: "宋体";
+	color: aquamarine;
+	font-size: 30px;
+	background-color: rgba(0, 140, 140, .3);
+	border-style: solid;
+	border-radius: 20px;
+	border-width: 2px;
+	border-color: rgb(0, 140, 140);
+}
+img{
+	border-radius: 50%;
+}
+p{
+	margin: 40px 0px;
+	color: lightblue;
+	text-align: center;
+	font-size: 36px;
+}
+.a{
+	font-size: 20px;
+	padding: 5px 25px;
+	color: white;
+	text-decoration: none;
+	border-style: solid;
+	border-color: lightcoral;
+	border-width: 3px;
+	border-radius: 20px;
+}
