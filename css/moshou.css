@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background: url("/img/moshou/bg.jpg") no-repeat center top;
+    background: url("../img/moshou/bg.jpg") no-repeat center top;
 }
 .clear::after {
     content: "";
@@ -18,7 +18,7 @@ header {
 header .nav {
     width: 1200px;
     height: 70px;
-    background-image: url("/img/moshou/bg_nav.jpg");
+    background-image: url("../img/moshou/bg_nav.jpg");
     background-size: cover;
     border: 1px solid #3f2a22;
 }
@@ -62,14 +62,14 @@ header .logo {
     width: 324px;
     height: 95px;
     float: left;
-background-image: url("/img/moshou/btns.png");
+background-image: url("../img/moshou/btns.png");
 
 }
 .menu .download {
     width: 324px;
     height: 95px;
     float: left;
-    background-image: url("/img/moshou/btns.png");
+    background-image: url("../img/moshou/btns.png");
     background-position: -324px;
 }
 .ads {
