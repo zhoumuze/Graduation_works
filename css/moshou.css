@@ -1,28 +1,31 @@
 body {
+    background-color: black;
+}
+.main {
     width: 100%;
+    height: 1035px;
     background: url("../img/moshou/bg.jpg") no-repeat center top;
+    padding-top: 45px;
 }
 .clear::after {
     content: "";
     display: block;
     clear: both;
 }
-
-/*头部样式*/
-header {
+.main header {
     width: 1200px;
     height: 70px;
-    margin: 45px auto;
+    margin: 0 auto;
     position: relative;
 }
-header .nav {
+.main header .nav {
     width: 1200px;
     height: 70px;
     background-image: url("../img/moshou/bg_nav.jpg");
     background-size: cover;
     border: 1px solid #3f2a22;
 }
-header .nav a {
+.main header .nav a {
     display: block;
     float: left;
     text-decoration: none;
@@ -36,13 +39,13 @@ header .nav a {
     border-bottom: none;
     border-top: none;
 }
-header .nav a:nth-child(3) {
+.main header .nav a:nth-child(3) {
     margin-right: 240px;
 }
-header .logo h1 {
+.main header .logo h1 {
     display: none;
 }
-header .logo {
+.main header .logo {
     width: 235px;
     height: 117px;
     position: absolute;
@@ -51,15 +54,15 @@ header .logo {
     right: 0px;
     margin: auto;
 }
-.menu {
+.main .menu {
     width: 648px;
     margin: 0 auto;
     margin-top: 470px;
 }
-.menu span {
+.main .menu span {
     display: none;
 }
-.menu .detail {
+.main .menu .detail {
     width: 324px;
     height: 95px;
     float: left;
@@ -73,24 +76,27 @@ background-image: url("../img/moshou/btns.png");
     background-image: url("../img/moshou/btns.png");
     background-position: -324px;
 }
-.ads {
+.main .ads {
     width: 1213px;
     height: 200px;
     margin: 0 auto;
     margin-top: 650px;
     margin-bottom: 115px;
 }
-.ads .item {
+.main .ads .item {
     width: 290px;
     height: 200px;
     outline: 1px solid #3f2a22;
     float: left;
     margin-right: 15px;
 }
-.ads .item:last-child {
+.main .ads .item:last-child {
     margin-right: 0px;
 }
-.ads .item a h2 {
+.main .ads .item a {
+    text-decoration: none;
+}
+.main .ads .item a h2 {
     width: 290px;
     height: 50px;
     line-height: 50px;
@@ -99,7 +105,100 @@ background-image: url("../img/moshou/btns.png");
     color: #f8b700;
     border-bottom: 1px solid #3f2a22;
 }
-.ads .item a img {
+
+.main .ads .item a img {
     width: 290px;
     height: 149px;
+}
+
+/*页脚*/
+.footer {
+    width: 100%;
+    background-color: black;
+}
+.footer .content {
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer .content .icon {
+    width: 1000px;
+    height: 30px;
+    margin-top: 55px;
+}
+.footer .content .icon .left a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.footer .content .icon .left a .item {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../img/moshou/icon_1.png") no-repeat;
+}
+.footer .content .icon .right {
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    float: right;
+}
+.footer .content .icon .right p {
+    display: inline-block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 400px;
+}
+.footer .content .icon .right a {
+    display: inline-block;
+    float: left;
+    width: 100px;
+    height: 30px;
+    background-image: url("../img/moshou/business-logo.png");
+    background-position: -350px 3px;
+}
+.footer .content .footer_logo {
+    width: 1000px;
+    color: rgba(255, 255, 255, 0.3);
+    line-height: 1.5;
+    font-size: 12px;
+    margin-top: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 30px;
+}
+.footer .content .footer_logo .logo {
+    width: 265px;
+    height: 76px;
+    position: relative;
+    float: left;
+}
+.footer .content .footer_logo .logo img {
+    float: left;
+}
+.footer .content .footer_logo .logo img:nth-child(2) {
+    position: absolute;
+    bottom: 0px;
+}
+.footer .content .footer_logo .secrecy {
+    float: left;
+    width: 635px;
+    padding-left: 100px;
+}
+.footer .content .footer_logo .secrecy p:first-child {
+    color: #fff;
+    font-size: 14px;
+}
+.footer .content .text {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+    line-height: 1.5;
+    text-align: center;
+    margin: 25px 0;
 }
